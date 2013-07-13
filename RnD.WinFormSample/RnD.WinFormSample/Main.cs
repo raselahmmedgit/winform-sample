@@ -28,19 +28,16 @@ namespace RnD.WinFormSample
             form.Show();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button4_Click(object sender, EventArgs e)
         {
-
+            ReportOfCrystall form = new ReportOfCrystall();
+            form.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            ReportOfRDLC form = new ReportOfRDLC();
+            form.Show();
         }
     }
 }

@@ -113,7 +113,7 @@ namespace RnD.WinFormSample
                 {
                     MessageBox.Show("Could not found item");
                 }
-                
+
             }
             catch (Exception ex)
             {
@@ -302,7 +302,7 @@ namespace RnD.WinFormSample
             return isInsert;
         }
 
-        private bool InsertStudents(List<Student> modelList)
+        private bool InsertStudentsBySP(List<Student> modelList)
         {
             bool isInsert = false;
 
@@ -567,7 +567,7 @@ namespace RnD.WinFormSample
 
                 }
 
-                if (InsertStudents(studentLst))
+                if (InsertStudentsBySP(studentLst))
                     isSave = true;
             }
             catch (Exception ex)
